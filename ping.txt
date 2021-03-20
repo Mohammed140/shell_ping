@@ -1,0 +1,16 @@
+		Script de ping automatico
+
+
+	Esse script tem como função testar uma lista de ips especificado no mesmo, onde ficam salvo depois em um arquivo para poder ser alterado, caso necessário. pode-se ainda adicionar e excluir por meio da interface inicial do mesmo, tendo outras opções como:
+	- pingar todos os equipamentos(função que testa com o icmp(protocolo utilizado pelo ping))
+	- adicionar equipamento(adiciona um endereço a lista)
+	- pingar equipamento especifico(dentre os ips listados em ordem, pode-se escolher um)
+	- exit
+
+
+
+
+OBS: o script contém algumas falhas como:
+	- não tem tratativa de erros
+	- caso o programa seja fechado de outra forma que não seja pelo exit, as configurações não ficam salvas
+	- alterações de quantidade de ping só são feitas por meio do código.
